@@ -1,0 +1,56 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+header{
+    width: 400px;
+    height: 600px;
+    background-color: red; 
+    box-shadow: 20px 10px 20px 2px black;
+    
+    
+}
+header h1{
+    display: flex;
+    justify-content: center;
+}
+.input input{
+    width: 375px;
+    border-radius: 20px;
+   padding: 10px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   outline: none;
+   outline-style: none;
+   
+   
+}
+.input input:hover{
+    background-color: blue;
+    color: white;
+}
+.input button{
+    width: 180px;
+ height: 40PX;
+ position: relative;
+ margin-top: 30px;
+ margin-left: 100px;
+ border-radius: 30px;
+
+ font-size: 1.5em;
+ border: none;
+ outline-style: none;
+ 
+}
+.input button:hover{
+    background-color: blue;
+}
+.a a{
+    position: relative;
+    margin-left: 200px;
+    top: 50px;
+    color: white;
+    text-decoration: none;
+}

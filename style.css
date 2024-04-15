@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+header{
+    width: 395px;
+    height: 500px;
+    background-color: red; 
+}
+header h1{
+    display: flex;
+    justify-content: center;
+}
+.conncetez-vous input{
+    width: 375px;
+    height: 30px;
+    border-radius: 20px;
+    padding: 8px;
+    border-color: blue;
+    margin-bottom: 20px;
+    outline: none;
+    outline-style: none;
+
+   
+}
+.conncetez-vous input:hover{
+    background-color: blue;
+}
+.conncetez-vous button{
+    position: relative;
+    top: 80px;
+    text-decoration: none;
+    
+}
+.conncetez-vous a{
+    position: relative;
+    top: 200px;
+    left: 200px;
+    color: antiquewhite;
+    text-decoration: none;
+}
+.conncetez-vous p a{
+    position: relative;
+    top: 10px;
+    left: 59px;
+
+}
+.conncetez-vous p{
+    position: relative;
+    top: 60px;
+    color: white;
+}
